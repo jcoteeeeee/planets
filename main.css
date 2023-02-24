@@ -4,7 +4,8 @@
 } 
 
 body {
-    background-color: rgb(180, 211, 222);
+    /* background-color: rgb(180, 211, 222);  */ 
+    background-image: url('https://images.unsplash.com/photo-1520034475321-cbe63696469a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZGFyayUyMHNreSUyMHdpdGglMjBzdGFyc3xlbnwwfHwwfHw%3D&w=1000&q=80')
 }
 
 .header { 
@@ -50,7 +51,7 @@ body {
     font-family: Brush Script MT; 
     /* border: 1px solid red;     */
     margin: 10px; 
-    color: rgb(255, 255, 255)
+    color: rgb(255, 255, 255) 
 } 
 
 #content{
@@ -60,26 +61,33 @@ body {
 } 
 
 .subtitle{
-    color: rgb(3, 3, 68);
+    /* color: rgb(3, 3, 68);  */ 
+    color: rgb(255, 255, 255); 
     font-family: Arial, Helvetica, sans-serif; 
     text-align: center; 
+    /* border-bottom: 1px solid rgb(3, 3, 68)  */ 
+    border-bottom: 1px solid rgb(255, 255, 255)
 }
 
 
 .planet h2{
     font-size: 28px; 
     font-family: Arial, Helvetica, sans-serif;
-    color:rgb(3, 3, 68); 
+    /* color:rgb(3, 3, 68);  */ 
+    color: rgb(255, 255, 255); 
     text-align: left; 
 }
 
 .description {
     font-size: 20px; 
     font-family: Arial, Helvetica, sans-serif; 
-    color: rgb(3, 3, 68); 
+    /* color: rgb(3, 3, 68);    */  
+    color: rgb(255, 255, 255); 
     height: 100px; 
     width: 100%px;
     margin-bottom: 20px; 
+    /* border-bottom: 1px solid rgb(3, 3, 68)   */  
+    border-bottom: 1px solid rgb(255, 255, 255); 
 } 
 
 .image{
