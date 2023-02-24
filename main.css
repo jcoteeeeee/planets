@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box; 
+  /* border: 1px solid red;  */ 
+} 
+
+body {
+    background-color: rgb(181, 211, 222);
+}
+
+.header { 
+    background-color: rgb(3, 3, 68); 
+    color: rgb(181, 211, 222); 
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center; 
+    height: 99px; 
+    width: 100%; 
+    /* border: 1px solid red;  */  
+    position: fixed; 
+    top: 0px; 
+    left: 0px; 
+    z-index: 1;  
+} 
+
+#nav {
+    /* border: 1px solid red;    */
+    background-color: rgb(255, 255, 255);  
+    /* position: relative;   */
+} 
+
+.header-plan{
+    display: inline-block; 
+    width: 120px;  
+    height: 12px; 
+    /* border: 1px solid red;   */
+    position: relative;      
+    margin-right: 10px;  
+    color: rgb(3, 3, 68); 
+    font-weight: bold; 
+    font-size: 12px;  
+    /* border-left: 1px solid rgb(3, 3, 68); 
+    border-right: 1px solid rgb(3, 3, 68);  */
+}
+
+.header-plan:hover{
+    color: rgb(221, 24, 24)
+}
+
+#title {
+    font-size: 35px; 
+    font-family: Brush Script MT; 
+    /* border: 1px solid red;     */
+    margin: 10px; 
+    color: rgb(255, 255, 255)
+} 
+
+#content{
+    position: relative; 
+    width: 100%;
+    top: 100px;    
+} 
+
+.subtitle{
+    color: rgb(3, 3, 68);
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center; 
+}
+
+
+.planet h2{
+    font-size: 28px; 
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(3, 3, 68); 
+    text-align: left; 
+}
+
+.description {
+    font-size: 20px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    color: rgb(3, 3, 68); 
+    height: 100px; 
+    width: 100%px;
+    margin-bottom: 20px; 
+} 
+
+.image{
+    width: 300px;
+    height: 180px; 
+}  
+
+.image:hover{ 
+    width: 350px; 
+    height: 210px; 
+}
+
+
