@@ -4,7 +4,7 @@
 } 
 
 body {
-    /* background-color: rgb(180, 211, 222);  */ 
+    /* background-color: rgb(180, 211, 222);    */
     background-image: url('https://images.unsplash.com/photo-1520034475321-cbe63696469a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZGFyayUyMHNreSUyMHdpdGglMjBzdGFyc3xlbnwwfHwwfHw%3D&w=1000&q=80')
 }
 
@@ -43,7 +43,7 @@ body {
 }
 
 .header-plan:hover{
-    color: rgb(221, 24, 24)
+    color: rgb(221, 24, 24); 
 }
 
 #title {
@@ -76,6 +76,7 @@ body {
     /* color:rgb(3, 3, 68);  */ 
     color: rgb(255, 255, 255); 
     text-align: left; 
+    text-transform: uppercase; 
 }
 
 .description {
