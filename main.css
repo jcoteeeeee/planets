@@ -34,22 +34,26 @@ body {
 #nav {
     /* border: 1px solid red;    */
     background-color: rgb(255, 255, 255);  
+    /* height: 35px;  */
     /* position: relative;   */
 } 
 
 .header-plan{
     display: inline-block; 
     width: 120px;  
-    height: 12px; 
+    height: 30px; 
     /* border: 1px solid red;   */
     position: relative;      
     margin-right: 10px;  
     color: rgb(3, 3, 68); 
     font-weight: bold; 
     font-size: 12px;  
+    text-decoration: none; 
+
     /* border-left: 1px solid rgb(3, 3, 68); 
     border-right: 1px solid rgb(3, 3, 68);  */
-}
+} 
+
 
 .header-plan:hover{
     color: rgb(221, 24, 24); 
