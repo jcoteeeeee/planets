@@ -1,3 +1,12 @@
+/* @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/lato/v23/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}   */
+
 * {
   box-sizing: border-box; 
   /* border: 1px solid red;  */ 
@@ -72,7 +81,8 @@ body {
 
 .planet h2{
     font-size: 28px; 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lato', sans-serif;  
+    font-style: italic; 
     /* color:rgb(3, 3, 68);  */ 
     color: rgb(255, 255, 255); 
     text-align: left; 
@@ -85,7 +95,7 @@ body {
     /* color: rgb(3, 3, 68);    */  
     color: rgb(255, 255, 255); 
     height: 100px; 
-    width: 100%px;
+    width: 100%;
     margin-bottom: 20px; 
     /* border-bottom: 1px solid rgb(3, 3, 68)   */  
     border-bottom: 1px solid rgb(255, 255, 255); 
@@ -99,6 +109,15 @@ body {
 .image:hover{ 
     width: 350px; 
     height: 210px; 
+}
+
+#video{
+    color: rgb(255, 255, 255); 
+    text-align: center; 
+} 
+
+video{
+    margin-bottom: 50px;
 }
 
 
