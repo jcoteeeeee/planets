@@ -99,7 +99,12 @@ body {
     margin-bottom: 20px; 
     /* border-bottom: 1px solid rgb(3, 3, 68)   */  
     border-bottom: 1px solid rgb(255, 255, 255); 
-} 
+}   
+
+.description a {
+    color: rgb(229, 236, 15); 
+    text-decoration: none; 
+}
 
 .image{
     width: 300px;
