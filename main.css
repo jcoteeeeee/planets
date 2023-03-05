@@ -151,3 +151,9 @@
 .facts a:hover{
     color: rgb(23, 146, 228)
 }  
+
+.plan-vid{
+    position:relative; 
+    left: 40%; 
+    top: 20%; 
+}
