@@ -72,12 +72,12 @@
     font-size: 25px; 
     color: rgb(255, 255, 255); 
     position: relative; 
-    top: 280%; 
+    top: 380px; 
     left: 5%;
     width: 35%;
     /* border: 1px solid red;   */
     font-family: 'Black Han Sans';
-    text-align: center;
+    text-align: center; 
 } 
 
 /* 1. mercury  */  
