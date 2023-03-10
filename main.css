@@ -15,6 +15,10 @@
   /* border: 1px solid red;  */ 
 } 
 
+a {
+    text-decoration: none;  
+}
+
 #main-body {
     /* background-color: rgb(180, 211, 222);    */
     background-image: url('https://images.immediate.co.uk/production/volatile/sites/4/2019/10/GettyImages-460712793-769fd3a.jpg?quality=90&crop=4px,37px,931px,401px&resize=940,400');
@@ -51,7 +55,6 @@
     color: rgb(3, 3, 68); 
     font-weight: bold; 
     font-size: 12px;  
-    text-decoration: none; 
     /* border-left: 1px solid rgb(3, 3, 68); 
     border-right: 1px solid rgb(3, 3, 68);  */
 } 
@@ -91,20 +94,20 @@
 
 #mercury-descrip{
     position: relative; 
-    height: 35%; 
+    height: 34%; 
     /* border: 1px solid blue;   */
     background-color: rgb(255, 255, 255) 
 } 
 
 #mercury-video{
     position: relative;
-    height: 30%; 
-    background-color: rgb(227, 239, 240)
+    height: 33%; 
+    background-color: rgb(227, 239, 240); 
 } 
 
 #mercury-facts{
     position:relative; 
-    height: 35%; 
+    height: 33%; 
     border-bottom: 1px solid blue;
 } 
 
@@ -144,16 +147,44 @@
     width: 100%;   
     padding: 2px;   
     font-family: 'Lato'; 
-    color: rgb(184, 216, 238); 
-    text-decoration: none;      
+    color: rgb(3, 3, 68); 
 }    
 
 .facts a:hover{
-    color: rgb(23, 146, 228)
+    color: rgb(184, 216, 238)
 }  
 
-.plan-vid{
-    position:relative; 
-    left: 40%; 
-    top: 20%; 
+.plan-vid{  
+    position: relative; 
+    height: 400px;   
+    width: 900px;  
+    top: 50px; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+} 
+
+.facts-header{
+    position: relative;  
+    text-align: center; 
+    height: 50px; 
+    width: 100%; 
+    font-size: 40px; 
+    color: rgb(3, 3, 68); 
+    font-family: Lato; 
+}  
+
+.facts-list li, .facts-link{ 
+    position: relative; 
+    text-align: left; 
+    font-size: 20px; 
+    color: rgb(3, 3, 68); 
+    font-family: Lato; 
+    line-height: 1.8; 
+    width: 50%; 
+    left: 450px; 
+} 
+
+.facts-link:hover{
+    color: rgb(184, 216, 238)
 }
