@@ -85,33 +85,33 @@ a {
 
 /* 1. mercury  */  
 
-#mercury-content{
+#plan-content{
     position: relative;  
     top: 99px;
     height: 1500px;
     width: 100%;
 } 
 
-#mercury-descrip{
+#plan-descrip{
     position: relative; 
     height: 34%; 
     /* border: 1px solid blue;   */
     background-color: rgb(255, 255, 255) 
 } 
 
-#mercury-video{
+#plan-video{
     position: relative;
     height: 33%; 
     background-color: rgb(227, 239, 240); 
 } 
 
-#mercury-facts{
+#plan-facts{
     position:relative; 
     height: 33%; 
     border-bottom: 1px solid blue;
 } 
 
-.mercury-img{
+.plan-img{
     position: relative;  
     top: 15%; 
     left: 2%; 
@@ -154,7 +154,7 @@ a {
     color: rgb(184, 216, 238)
 }  
 
-.plan-vid{  
+.vid-link{  
     position: relative; 
     height: 400px;   
     width: 900px;  
