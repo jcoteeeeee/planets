@@ -168,10 +168,13 @@ a {
     position: relative;  
     text-align: center; 
     height: 50px; 
-    width: 100%; 
+    width: 30%; 
     font-size: 40px; 
     color: rgb(3, 3, 68); 
     font-family: Lato; 
+    background-color: rgb(184, 216, 238);  
+    top: 20px; 
+    left: 420px; 
 }  
 
 .facts-list li, .facts-link{ 
@@ -183,6 +186,7 @@ a {
     line-height: 1.8; 
     width: 50%; 
     left: 450px; 
+    top: 30px; 
 } 
 
 .facts-link:hover{
