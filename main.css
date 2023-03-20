@@ -83,7 +83,7 @@ a {
     text-align: center; 
 } 
 
-/* 1. mercury  */  
+/* planet pages  */  
 
 #plan-content{
     position: relative;  
@@ -191,4 +191,12 @@ a {
 
 .facts-link:hover{
     color: rgb(184, 216, 238)
+} 
+
+/* quiz page */ 
+
+#quiz {
+    position: relative; 
+    top: 120px; 
+    left: 20px; 
 }
